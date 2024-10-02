@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0e1b15-7e84-4843-a28a-2dc8f5c6e549" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/SessionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/SessionManagerStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/TrainerFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/TrainerLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/WordList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/WordPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/WordTrainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/WordTrainerSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/WordTrainerTests.java" afterDir="false" />
+    <list default="true" id="7d0e1b15-7e84-4843-a28a-2dc8f5c6e549" name="Changes" comment="Project Structure and UML">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/G_9a_1/src/main/java/WordList.java" beforeDir="false" afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/WordList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/G_9a_1/src/main/java/WordPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/WordPair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +16,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/G_9a_1/src/main/java/WordList.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -46,6 +50,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -66,8 +71,17 @@
       <option name="presentableId" value="Default" />
       <updated>1726667932777</updated>
       <workItem from="1726667934069" duration="187000" />
-      <workItem from="1727873263574" duration="1404000" />
+      <workItem from="1727873263574" duration="2650000" />
     </task>
+    <task id="LOCAL-00001" summary="Project Structure and UML">
+      <option name="closed" value="true" />
+      <created>1727874888105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727874888105</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +89,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Project Structure and UML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Structure and UML" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
