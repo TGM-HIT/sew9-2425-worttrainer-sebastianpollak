@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0e1b15-7e84-4843-a28a-2dc8f5c6e549" name="Changes" comment="Project Structure and UML">
+    <list default="true" id="7d0e1b15-7e84-4843-a28a-2dc8f5c6e549" name="Changes" comment="WordList and WordPair added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/G_9a_1/src/main/java/WordList.java" beforeDir="false" afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/WordList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/G_9a_1/src/main/java/WordPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/WordPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/G_9a_1/src/main/java/WordTrainerSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/G_9a_1/src/main/java/WordTrainerSession.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
+    "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726667932777</updated>
       <workItem from="1726667934069" duration="187000" />
-      <workItem from="1727873263574" duration="2650000" />
+      <workItem from="1727873263574" duration="4831000" />
     </task>
     <task id="LOCAL-00001" summary="Project Structure and UML">
       <option name="closed" value="true" />
@@ -81,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727874888105</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="WordList and WordPair added">
+      <option name="closed" value="true" />
+      <created>1727876201945</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727876201945</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,7 +97,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Project Structure and UML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Structure and UML" />
+    <MESSAGE value="WordList and WordPair added" />
+    <option name="LAST_COMMIT_MESSAGE" value="WordList and WordPair added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -9,7 +9,7 @@ public class WordList {
         wordlist = new ArrayList<>();
     }
 
-    public void addWordPair(WortEintrag entry) {
+    public void addWordPair(WordPair entry) {
         wordlist.add(entry);
     }
 
@@ -19,9 +19,9 @@ public class WordList {
 
     public WordPair getWordPair(int i) {
         if (wordlist.isEmpty()) {
-            System.out.println("Keine WortEinträge in der Liste.");
+            throw new IllegalArgumentException("Keine WortEinträge in der Liste.");
         } else {
-            return wordlist.get(i)
+            return wordlist.get(i);
         }
     }
 

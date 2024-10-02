@@ -1,13 +1,7 @@
 public class WordTrainer {
 
-	private TrainerLayout trainerLayout;
+	public static void main(String[] args) {
 
-	private TrainerFrame trainerFrame;
-
-	private WordTrainerSession wordTrainerSession;
-
-	public Main main(String[] args) {
-		return null;
 	}
 
 }

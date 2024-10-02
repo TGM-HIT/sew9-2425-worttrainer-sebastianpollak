@@ -3,7 +3,7 @@ public class WordPair {
     private String word = "";
     private String url = "";
 
-    public WortEintrag(String word, String url) throws IllegalArgumentException {
+    public WordPair(String word, String url) throws IllegalArgumentException {
 
         if(word.length() >= 1) {
             this.word = word;
