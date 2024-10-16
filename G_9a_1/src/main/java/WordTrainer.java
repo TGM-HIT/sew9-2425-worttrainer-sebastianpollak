@@ -43,6 +43,7 @@ public class WordTrainer implements ActionListener, KeyListener {
 			case "loadB":
 				try {
 					WT.getSessionManager().loadWordTrainer(WT);
+					GP.updateWordTrainer(WT);
 				} catch (IOException ex) {
 					System.out.println("Fehler beim Laden. Laden des Standardpfad nicht möglich.");
 				}

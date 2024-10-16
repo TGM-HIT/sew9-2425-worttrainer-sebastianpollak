@@ -139,5 +139,24 @@ public class TrainerLayout extends JPanel{
         center.setLayout(new FlowLayout());
         center.add(lImage);
     }
+
+    public void updateWordTrainer(WordTrainerSession wordTrainerSession) throws MalformedURLException {
+        this.setURL(wordTrainerSession.getURL());
+
+        this.repaint();
+        this.revalidate();
+
+        center.removeAll(); //Entfernt das Bild
+
+        icon = new ImageIcon(new URL(wordTrainerSession.getURL())); //Ladet das neue bIld
+        Image image = icon.getImage();
+        image = image.getScaledInstance(250, 250,  Image.SCALE_SMOOTH);
+        JLabel lImage = new JLabel(new ImageIcon(image));
+        center.setLayout(new FlowLayout());
+        center.add(lImage);
+
+        trueWordsLabel.setText(String.valueOf(wordTrainerSession.getRightGuesses()));
+        numberWordsLabel.setText(String.valueOf(wordTrainerSession.getNumberGuesses()));
+    }
 }
 
