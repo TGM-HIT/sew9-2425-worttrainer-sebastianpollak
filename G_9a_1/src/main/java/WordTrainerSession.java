@@ -34,15 +34,11 @@ public class WordTrainerSession {
 	}
 
 	public String getWord(int index){
-
 		return wordList.getWordPair(index).getWord();
-
 	}
 
 	public void newRandomNumber(){
-
 		random = (int)(Math.random() * (wordList.getWordlist().size()- 1)+1);
-
 	}
 
 }

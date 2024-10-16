@@ -1,9 +1,22 @@
+import java.io.IOException;
+
 public class SessionManager {
 
-	private ManagerStrategyJSON managerStrategyJSON;
+    private SessionManagerStrategy strategy;
 
-	private SessionManagerStrategy sessionManagerStrategy;
+    public SessionManager(SessionManagerStrategy strategy) {
+        this.strategy = strategy;
+    }
 
-	private SessionManagerStrategy sessionManagerStrategy;
+    public void setStrategy(SessionManagerStrategy strategy) {
+        this.strategy = strategy;
+    }
 
+    public void safeWordTrainer(WordTrainer wordTrainer) {
+        strategy.saveToFile(wordTrainer);
+    }
+
+    public void loadWordTrainer() throws IOException {
+        strategy.loadFromFile();
+    }
 }
