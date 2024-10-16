@@ -1,6 +1,6 @@
 import java.io.IOException;
 
 public interface SessionManagerStrategy {
-    void saveToFile(Object object);
-    WordTrainer loadFromFile() throws IOException;
+    void saveToFile(WordTrainerSession session);
+    void loadFromFile(WordTrainerSession session ) throws IOException;
 }

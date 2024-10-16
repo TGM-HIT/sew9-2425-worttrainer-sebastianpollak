@@ -12,11 +12,11 @@ public class SessionManager {
         this.strategy = strategy;
     }
 
-    public void safeWordTrainer(WordTrainer wordTrainer) {
+    public void safeWordTrainer(WordTrainerSession wordTrainer) {
         strategy.saveToFile(wordTrainer);
     }
 
-    public void loadWordTrainer() throws IOException {
-        strategy.loadFromFile();
+    public void loadWordTrainer(WordTrainerSession wordTrainer) throws IOException {
+        strategy.loadFromFile(wordTrainer);
     }
 }
