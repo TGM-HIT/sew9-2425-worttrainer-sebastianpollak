@@ -27,7 +27,7 @@ public class TrainerLayout extends JPanel{
         pageStart.setLayout(new BorderLayout(1,1));
         pageEnd.setLayout(new GridLayout(3,3));
 
-        JLabel l = new JLabel("Welches Wort Wird unten dargestellt(Eingabe zum Überprüfen)?");
+        JLabel l = new JLabel("Welches Wort Wird unten dargestellt(Eingabe zum Ueberpuefen)?");
         pageStart.add(l, BorderLayout.PAGE_START);
 
         pageStart.add(input, BorderLayout.PAGE_END);
@@ -41,14 +41,14 @@ public class TrainerLayout extends JPanel{
         center.setLayout(new FlowLayout());
         center.add(lImage);
 
-        pageEnd.add(new JLabel("Richtige Wörter"));
+        pageEnd.add(new JLabel("Richtige Woerter"));
         trueWordsLabel = new JLabel(String.valueOf(session.getRightGuesses()));
         pageEnd.add(trueWordsLabel);
-        resetB = new JButton("Zurücksetzen");
+        resetB = new JButton("Zuruecksetzen");
         resetB.setActionCommand("resetB");
         pageEnd.add(resetB);
 
-        pageEnd.add(new JLabel("Anzahl Wörter"));
+        pageEnd.add(new JLabel("Anzahl Woerter"));
 
         numberWordsLabel = new JLabel(String.valueOf(session.getNumberGuesses()));
         pageEnd.add(numberWordsLabel);

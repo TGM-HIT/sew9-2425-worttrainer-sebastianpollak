@@ -35,7 +35,6 @@ public class ManagerStrategyJSON implements SessionManagerStrategy {
             session.setNumberGuesses(jsonObject.get("numberGuesses").getAsInt());
             session.setRandom(jsonObject.get("random").getAsInt());
 
-
         }
     }
 
