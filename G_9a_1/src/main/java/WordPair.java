@@ -1,3 +1,8 @@
+/**
+ * Wortpaar Objekt
+ * @author Pollak-Sebastian
+ * @version 20.10.2024
+ */
 public class WordPair {
 
     private String word = "";

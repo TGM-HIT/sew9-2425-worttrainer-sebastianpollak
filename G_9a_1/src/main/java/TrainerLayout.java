@@ -3,6 +3,11 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import javax.swing.*;
 
+/**
+ * Panel Klasse für Worttrainer
+ * @author Pollak-Sebastian
+ * @version 20.01.2024
+ */
 public class TrainerLayout extends JPanel{
 
     private String URL = "";
@@ -76,13 +81,6 @@ public class TrainerLayout extends JPanel{
 
     }
 
-    /**
-     * Setter und Getter Methoden für die URL
-     * @return URL
-     */
-    public String getURL() {
-        return URL;
-    }
     public void setURL(String URL) {
         this.URL = URL;
     }
@@ -140,6 +138,11 @@ public class TrainerLayout extends JPanel{
         center.add(lImage);
     }
 
+    /**
+     * Methode um den Worttrainer zu aktualisieren
+     * @param wordTrainerSession Die derzeitge Worttrainer Session
+     * @throws MalformedURLException Exception falls ein Fehler mit der URL vor liegt.
+     */
     public void updateWordTrainer(WordTrainerSession wordTrainerSession) throws MalformedURLException {
         this.setURL(wordTrainerSession.getURL());
 

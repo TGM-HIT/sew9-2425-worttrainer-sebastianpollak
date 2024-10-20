@@ -7,6 +7,11 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+/**
+ * Worttrainer Logik
+ * @author Pollak-Sebastian
+ * @version 20.10.2024
+ */
 public class WordTrainer implements ActionListener, KeyListener {
 	private TrainerFrame GF;
 	private TrainerLayout GP;

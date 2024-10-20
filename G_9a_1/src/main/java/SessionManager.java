@@ -1,5 +1,10 @@
 import java.io.IOException;
 
+/**
+ * Worttrainer Session Manager um über Strategy zu Speichern oder zu laden.
+ * @author Pollak-Sebastian
+ * @version 20.10.2024
+ */
 public class SessionManager {
 
     private SessionManagerStrategy strategy;
